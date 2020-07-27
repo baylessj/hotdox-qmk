@@ -375,7 +375,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                               KC_NO, KC_DEL,  KC_TRNS,
   /* right hand */
   M_BRACKET_OUT_CBR, KC_TRNS,           KC_NLCK, KC_KP_SLASH, KC_KP_ASTERISK, KC_KP_MINUS,  KC_TRNS,
-  M_BRACKET_OUT_PRN, M_ARROW_LEQL,      KC_NO,   KC_UP,       KC_NO,          KC_KP_PLUS,  KC_TRNS,
+  M_BRACKET_OUT_PRN, M_ARROW_LEQL,      KC_HOME, KC_UP,       KC_END,         KC_KP_PLUS,  KC_TRNS,
                      M_ARROW_LMINUS,    KC_LEFT, KC_DOWN,     KC_RGHT,        KC_KP_PLUS,  KC_TRNS,
   M_BRACKET_OUT_BRC, M_BRACKET_OUT_ANG, KC_NO,   KC_NO,       KC_NO,          KC_KP_ENTER, KC_TRNS,
                                         KC_NO, KC_TRNS,     KC_KP_DOT,      KC_KP_ENTER, KC_TRNS,
